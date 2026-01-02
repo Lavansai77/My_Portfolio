@@ -1,6 +1,4 @@
-/** @type {import('next').NextConfig} */
-
-const repo = "lavansai-portfolio";
+const repo = "My_Portfolio"; // Update this to match your GitHub repo name exactly
 const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig = {
