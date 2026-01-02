@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Spotify Clone",
+    "stack": ["React", "Redux", "React Router", "Spotify Web API"],
+    "highlights": [
+      "Built a responsive Spotify-inspired web app with search, playlists, and playback.",
+      "Integrated Spotify Web API for live songs, artists, and albums.",
+      "Implemented global state management with Redux.",
+      "Ensured smooth navigation and persistent playback using React Router."
+    ],
+    "repo": "https://github.com/Lavansai77/Spotify-clone-P3"
+  },
+  {
+    "title": "Fitness Management System",
+    "stack": ["MongoDB", "Express.js", "React", "Node.js"],
+    "highlights": [
+      "Created a full-stack app for managing fitness and diet plans by goal and budget.",
+      "Added goal-based workout categories (weight gain, fat loss, muscle building).",
+      "Built a calorie calculator to guide daily intake.",
+      "Implemented schedule-based meal reminders."
+    ],
+    "repo": "https://github.com/Lavansai77/Fitness1"
+  }
+]
