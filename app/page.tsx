@@ -57,13 +57,13 @@ export default function Home() {
             View Projects
           </button>
 
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            className="rounded-xl border border-slate-700 px-7 py-3 hover:bg-slate-900"
-          >
-            Download Resume
-          </a>
+          <a 
+  href="./resume.pdf" 
+  download="Bandari_Lavan_Sai_Resume.pdf"
+  className="bg-accent text-slate-900 px-6 py-3 rounded-lg font-bold"
+>
+  Download Resume
+</a>
         </motion.div>
       </section>
 
@@ -513,7 +513,12 @@ export default function Home() {
             {profile.email}
           </a>
         </p>
-
+          <p>
+    <span className="font-semibold text-slate-100">Phone:</span>{" "}
+    <a href={`tel:${profile.phone}`} className="text-accent hover:underline">
+      {profile.phone}
+    </a>
+  </p>
         <p>
           <span className="font-semibold text-slate-100">Location:</span>{" "}
           Sircilla

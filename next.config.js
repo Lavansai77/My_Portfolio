@@ -1,4 +1,4 @@
-const repo = "My_Portfolio"; // Update this to match your GitHub repo name exactly
+const repo = "My_Portfolio"; 
 const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig = {
