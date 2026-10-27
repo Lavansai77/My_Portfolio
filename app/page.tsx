@@ -152,7 +152,7 @@ export default function Home() {
                 <span className="inline-block px-3 py-1 rounded-md bg-slate-900 border border-slate-800 text-sm font-mono text-slate-300">
                   2023 – 2026
                 </span>
-                <p className="text-xs text-accent mt-2 font-bold tracking-widest uppercase">CGPA: 8.69</p>
+                <p className="text-xs text-accent mt-2 font-bold tracking-widest uppercase">CGPA: 8.76</p>
               </div>
             </div>
 
